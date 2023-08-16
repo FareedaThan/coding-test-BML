@@ -32,3 +32,4 @@ To Visit App:
 - The webpage is responsive but need an improvement to get closer to the given design.
 
 ## Screenshot
+![Screenshot 2023-08-15 at 21 30 47](https://github.com/FareedaThan/coding-test-BML/assets/52806480/4a8f79f7-6b9d-4017-a02c-870ff13645c6)
