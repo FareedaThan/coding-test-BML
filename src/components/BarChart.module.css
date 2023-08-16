@@ -1,0 +1,83 @@
+.layout {
+  width: 55%;
+  margin-top: 45px;
+  margin-bottom: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  height: 217px;
+  flex-shrink: 0;
+}
+
+.subHeader {
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.selectBoxDistrict {
+  width: 140px;
+  height: 30px;
+}
+
+.selectBoxDuration {
+  width: 140px;
+  height: 30px;
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.filterContent {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.filterDuration {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+@media (max-width: 1020px) {
+  .layout {
+    margin-top: 130px;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .selectBoxDistrict {
+    width: 280px;
+  }
+}
+
+@media (max-width: 720px) {
+  .layout {
+    width: 80%;
+    margin-top: 180px;
+  }
+
+  .filter {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .filterDuration {
+    gap: 20px;
+  }
+
+  .selectBoxDistrict {
+    width: 280px;
+  }
+}
